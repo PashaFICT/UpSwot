@@ -1,0 +1,10 @@
+1)
+Select * from Tikets tiket
+left join Clients client on client.ID = tiket.ClientID
+
+2)
+Select TOP(5) * from Tikets order by ID desc
+
+3)
+Select TOP(3) * from Tikets order by Count(ClientID) desc
+
